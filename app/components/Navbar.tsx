@@ -50,7 +50,7 @@ const Navbar = () => {
                         
                         {/* Resume button - Desktop */}
                         <a
-                            href="https://drive.google.com/file/d/15XO4kKAxj6QxKzLdGM8Vz-EBcpsX2IiM/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1BULUGPhLzE1idoJNYgP6ZpSmPbf5rtZg/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-lg px-4 py-2 block bg-primary text-white rounded hover:bg-blue-700 transition-colors duration-300"

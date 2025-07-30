@@ -50,5 +50,23 @@ export const projects: Project[] = [
         githubLink: 'https://github.com/Ben2104/Pickleball-Booking-Extension',
         image: '/projects/pickleball.jpg',
     },
-
+    {
+        title: 'Pickleball Booking Automation (Playwright & GitHub Actions)',
+        description: 'Automates court booking at iPickle Cerritos using Playwright for browser automation, scheduled via Cron-Jobs.org and executed as a GitHub Action.',
+        technologies: [
+            'JavaScript',
+            'Playwright',
+            'GitHub Actions',
+            'Cron-Jobs.org'
+        ],
+        githubLink: 'https://github.com/Ben2104/pickleball-bot',
+        image: '/projects/pickleball_bot.png',
+    },
+    {
+        title: 'Portfolio Website',
+        description: 'A personal portfolio website showcasing my projects, skills, and experiences, built with Next.js and Tailwind CSS.',
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+        githubLink: 'https://github.com/Ben2104/next-js-portfolio-website',
+        image: '/projects/portfolio.png',
+    }
 ];
