@@ -50,7 +50,7 @@ const Navbar = () => {
                         
                         {/* Resume button - Desktop */}
                         <a
-                            href="https://drive.google.com/file/d/1BULUGPhLzE1idoJNYgP6ZpSmPbf5rtZg/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1R4abjf_f56ZxX3fsMKSTKC0PyBoQURtu/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-lg px-4 py-2 block bg-primary text-white rounded hover:bg-blue-700 transition-colors duration-300"
@@ -88,7 +88,7 @@ const Navbar = () => {
                                 {/* Resume button - Mobile */}
                                 <div className="pt-2">
                                     <a
-                                        href="https://drive.google.com/file/d/15XO4kKAxj6QxKzLdGM8Vz-EBcpsX2IiM/view?usp=sharing"
+                                        href='https://drive.google.com/file/d/1R4abjf_f56ZxX3fsMKSTKC0PyBoQURtu/view?usp=sharing'
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="block text-lg py-2 px-4 bg-primary text-white rounded text-center hover:bg-blue-700 transition-colors duration-300"
