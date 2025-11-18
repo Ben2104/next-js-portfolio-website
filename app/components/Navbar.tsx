@@ -47,24 +47,7 @@ const Navbar = () => {
                                 )
                             })
                         }
-                        
-                        {/* Resume button - Desktop */}
-                        <a
-                            href="https://drive.google.com/file/d/1R4abjf_f56ZxX3fsMKSTKC0PyBoQURtu/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-lg px-4 py-2 block bg-primary text-white rounded hover:bg-blue-700 transition-colors duration-300"
-                        >
-                            Resume
-                        </a>
                     </div>
-                    
-                    {/* Mobile menu button */}
-                    <button className='md:hidden p-2 rounded-lg hover:bg-gray-800 transition-colors cursor-pointer' onClick={toggleMobileMenu}>
-                        {
-                            isMobileMenuOpen ? (<XMarkIcon className='w-6 h-6 text-white' />) : (<Bars3Icon className='w-6 h-6 text-white' />)
-                        }
-                    </button>
                 </div>
                 
                 {/* Mobile menu */}
