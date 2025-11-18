@@ -10,6 +10,13 @@ export const projects: Project[] = [
         image: '/projects/shape&sign.png',
     },
     {
+        title: '911 OPERATOR ASSISTANT',
+        description: 'A web application designed to assist 911 operators by providing real-time information and resources during emergency calls.',
+        technologies: ['Next.js', 'Node.js', 'FastAPI', 'Python', 'Tailwind CSS', 'Googkle Maps API', 'Geoapify API', 'Twilio API'],
+        githubLink: 'https://github.com/Ben2104/911-Operator-Assistant?tab=readme-ov-file',
+        image: '/projects/911_operator.png',
+    },
+    {
         title: 'QuizzRiff',
         description: 'QuizRiff helps educators save time by automating personalized quiz creation and adding a competitive scoring system to keep students engaged in learning.',
         technologies: ['Python', 'HTML', 'CSS', 'SQLite3', 'Flask', 'WolframAlpha API'],
