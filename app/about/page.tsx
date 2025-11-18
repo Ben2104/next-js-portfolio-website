@@ -84,6 +84,26 @@ const About = () => {
         transition={{ duration: 0.5 }}
         className='mb-16'>
         <h2 className='text-2xl font-bold mb-6 text-center'>Experiences</h2>
+        <motion.section
+          {...scaleIn}
+          transition={{ duration: 0.5 }}
+          className='mb-16'>
+          <div className='max-w-3xl mx-auto space-y-8'>
+            <motion.div
+              {...scaleIn}
+              transition={{ duration: 0.3 }}
+              whileHover={cardHover.whileHover}
+              className='bg-gray-800 p-6 rounded-lg shadow-md cursor-pointer'>
+              <h3 className='text-xl font-semibold mb-2'>Instructional Student Assistant</h3>
+              <p className='text-primary mb-2'>California State University, Long Beach • Aug 2025 – Current</p>
+              <ul className='text-gray-300 space-y-2 list-disc list-inside'>
+                <li>Graded Python assignments, labs, and exams on computer arithmetic and matrix computations, providing clear feedback on correctness, efficiency, and code quality while maintaining consistent rubrics.</li>
+                <li>Held weekly office hours for 100+ students, explaining discrete structures and linear-algebra topics (logic, modular arithmetic, vectors/matrices, Gaussian elimination) with step-by-step examples.</li>
+                <li>Debugged student code and coached systematic problem decomposition, edge-case handling, and test-case design to improve assignment outcomes and confidence.</li>
+              </ul>
+            </motion.div>
+          </div>
+        </motion.section>
         <div className='max-w-3xl mx-auto space-y-8'>
           <motion.div
             {...scaleIn}
